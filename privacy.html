@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RoastBox Privacy Policy / Gizlilik Politikası</title>
+<meta name="description" content="Privacy policy for RoastBox, the pass-the-phone party game by Noxhel Studios. / Noxhel Studios tarafından geliştirilen RoastBox parti oyununun gizlilik politikası.">
+<meta name="robots" content="index,follow">
+<style>
+  :root { --bg:#FAF9F1; --ink:#060606; --yellow:#F8E100; --pink:#D6007A; --muted:#4a4a45; --line:#060606; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#121210; --ink:#F4F2E6; --muted:#b9b6a8; --line:#F4F2E6; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  .bar { background:var(--yellow); color:#060606; border-bottom:3px solid #060606; }
+  .bar div { max-width:760px; margin:0 auto; padding:14px 20px; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  .brand { font-weight:900; letter-spacing:-.02em; font-size:1.25rem; }
+  .langs button { font:inherit; font-weight:700; font-size:.9rem; padding:6px 14px; border:2px solid #060606; background:#fff; color:#060606; cursor:pointer; box-shadow:2px 2px 0 #060606; }
+  .langs button[aria-pressed="true"] { background:#060606; color:var(--yellow); }
+  main { max-width:760px; margin:0 auto; padding:28px 20px 72px; }
+  h1 { font-size:clamp(1.8rem,5vw,2.4rem); line-height:1.15; letter-spacing:-.02em; margin:.2em 0 .1em; }
+  h2 { font-size:1.25rem; margin:2em 0 .4em; padding-top:.2em; border-top:3px solid var(--line); }
+  .meta { color:var(--muted); font-size:.95rem; margin:0 0 1.2em; }
+  .summary { background:var(--yellow); color:#060606; border:3px solid #060606; box-shadow:5px 5px 0 #060606; padding:14px 18px; margin:1.2em 0; }
+  .summary ul { margin:.4em 0 0; padding-left:1.2em; }
+  ul { padding-left:1.3em; }
+  li { margin:.3em 0; }
+  a { color:var(--pink); font-weight:600; }
+  table { border-collapse:collapse; width:100%; font-size:.95rem; margin:.6em 0; }
+  th,td { border:2px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:var(--yellow); color:#060606; }
+  footer { margin-top:3em; color:var(--muted); font-size:.9rem; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<div class="bar"><div>
+  <span class="brand">ROASTBOX</span>
+  <span class="langs" role="group" aria-label="Language">
+    <button type="button" data-lang="en" aria-pressed="true">English</button>
+    <button type="button" data-lang="tr" aria-pressed="false">Türkçe</button>
+  </span>
+</div></div>
+
+<main>
+<!-- ============================== ENGLISH ============================== -->
+<article id="en" lang="en">
+  <h1>Privacy Policy</h1>
+  <p class="meta">RoastBox by Noxhel Studios · Effective date: October 24, 2026</p>
+
+  <div class="summary">
+    <strong>The short version</strong>
+    <ul>
+      <li>No account, email, phone number or password. You just play.</li>
+      <li>To score guesses and write roasts, the text you type in a round is sent over HTTPS to our server, which passes it to a third-party AI model.</li>
+      <li>The Android app shows ads through Google AdMob, which may use your advertising ID. Where the law requires it, we ask for your consent first.</li>
+      <li>Settings and your current game stay on your device.</li>
+      <li>We do not sell your personal information.</li>
+    </ul>
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>RoastBox (package <code>io.roastbox.app</code>, the “App”) is a pass-the-phone party game published by Noxhel Studios (“we”, “us”). For privacy questions or requests, write to <a href="mailto:support@roastbox.io">support@roastbox.io</a>.</p>
+
+  <h2>2. Information we process</h2>
+  <p><strong>Game content you type.</strong> This means player nicknames, questions, secret “truths” and guesses. During a round it is kept on your device. When the round reaches the judging step, this text is sent over an encrypted HTTPS connection to our proxy, which runs on Cloudflare Workers. The proxy forwards it to a third-party AI model provider (currently Google’s Gemini API) so the AI can score each guess and write a roast. We do not ask you for real names or any personal details, and you should not type sensitive information (for example health data, ID numbers, passwords, or details about other people that they would not want shared). If the AI service is unreachable, the App scores the round with an offline fallback on your device instead.</p>
+  <p>We do not create user profiles, we do not link this text to an account (there are none), and we do not use it for advertising. Our proxy does not store it in a database of ours. Like any web service, Cloudflare and the AI provider receive technical request data (such as your IP address) and may keep short-lived logs under their own terms.</p>
+  <p><strong>Data stored on your device.</strong> The App saves your language, sound and vibration settings, selected question packs, the time until a pack unlocked with a rewarded ad expires, whether you have seen the tutorial, and the state of the current game (players, scores, round). This stays on your device and is not sent to us. You can clear it with <em>Settings → Reset current game</em>, by clearing the App’s storage in Android settings, or by uninstalling the App.</p>
+  <p><strong>Advertising data (Android).</strong> The App shows rewarded and interstitial ads through Google AdMob. To serve, measure and protect against fraud in ads, Google may collect your Android advertising ID, IP address (which can indicate approximate location), device and app information, and how you interact with ads. We cap ad content at a “Teen” rating. Where the law requires consent (for example in the EEA, the UK and Switzerland), the App shows a consent form before ads load, and you can revisit your choice later in <em>Settings → Ad privacy choices</em>. You can also reset or delete your advertising ID in Android’s settings (<em>Settings → Privacy → Ads</em>). Google’s practices are described at <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> and <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+  <p><strong>Rating prompt.</strong> If the App asks you to rate it, that uses Google Play’s in-app review dialog. Google handles your review. We do not receive anything beyond what Google Play shows developers.</p>
+  <p><strong>Messages to us.</strong> If you email us, we receive your email address and whatever you write, and we use it only to reply.</p>
+  <p><strong>What we do not collect.</strong> We do not collect accounts, email addresses, phone numbers, payment details, contacts, photos, microphone or camera data, or precise location. The App requests only the Internet and network-state permissions, plus the advertising ID permission used by AdMob.</p>
+
+  <h2>3. Why we use it, and our legal bases</h2>
+  <table>
+    <tr><th>Purpose</th><th>Data</th><th>Basis (GDPR / UK GDPR / KVKK)</th></tr>
+    <tr><td>Scoring guesses and writing roasts</td><td>Game content you type</td><td>Providing the service you asked for; our legitimate interest in running the game</td></tr>
+    <tr><td>Showing and measuring ads</td><td>Advertising ID, IP address, device and ad-interaction data (processed by Google)</td><td>Your consent where required; otherwise legitimate interest in funding the App</td></tr>
+    <tr><td>Keeping the game working and secure</td><td>Technical request data</td><td>Legitimate interest</td></tr>
+    <tr><td>Answering your messages</td><td>Your email and message</td><td>Legitimate interest; legal obligations where they apply</td></tr>
+  </table>
+
+  <h2>4. Who receives data</h2>
+  <ul>
+    <li><strong>Cloudflare</strong> hosts the proxy that handles AI requests.</li>
+    <li><strong>An AI model provider</strong> (currently Google Gemini) processes the game text to produce scores and roasts. The provider handles it under its own terms and privacy policy.</li>
+    <li><strong>Google AdMob</strong> serves ads and receives the advertising data described above.</li>
+    <li><strong>Google Play</strong> distributes the App and runs the review dialog.</li>
+    <li>We may disclose information if the law requires it or to protect rights and safety.</li>
+  </ul>
+  <p>We do not sell your personal information. In some US states, ad-related data flows to Google may count as “sharing” for advertising; you can limit this through <em>Settings → Ad privacy choices</em> and Android’s ad settings.</p>
+
+  <h2>5. International transfers</h2>
+  <p>Cloudflare, Google and the AI provider operate globally, so your data may be processed outside your country, including in the United States. Where required, these providers rely on safeguards such as standard contractual clauses or equivalent mechanisms.</p>
+
+  <h2>6. How long we keep data</h2>
+  <ul>
+    <li>Data on your device stays until you clear it, reset the game or uninstall the App.</li>
+    <li>We do not keep game text in our own database. Cloudflare and the AI provider may hold request logs for a short period under their own policies.</li>
+    <li>Advertising data is kept by Google under Google’s policies.</li>
+    <li>Emails to us are kept as long as needed to answer and to meet legal duties.</li>
+  </ul>
+
+  <h2>7. Your rights and choices</h2>
+  <p>Depending on where you live, you may have the right to access your data, correct it, delete it, restrict or object to its processing, withdraw consent at any time, and lodge a complaint with your data protection authority. In Türkiye, KVKK Article 11 gives you similar rights, including asking whether your data is processed and requesting deletion, and you may complain to the Personal Data Protection Authority (KVKK). California residents have the right to know, delete and opt out of sale or sharing, and we do not discriminate for using these rights.</p>
+  <p>Because the App has no accounts, we usually cannot tell which data belongs to you, and most of it sits on your own device, where you control it. To make a request, email <a href="mailto:support@roastbox.io">support@roastbox.io</a>. We will answer within the time the law sets. Ad choices: <em>Settings → Ad privacy choices</em> in the App, and Android’s advertising ID controls.</p>
+
+  <h2>8. Children</h2>
+  <p>RoastBox is not directed to children under 13, and we do not knowingly collect personal information from them. In some countries the minimum age is higher; if the law where you live requires a parent’s permission, please ask them first. If you believe a child has sent us personal information, write to <a href="mailto:support@roastbox.io">support@roastbox.io</a> and we will act on it.</p>
+
+  <h2>9. AI-generated content</h2>
+  <p>Scores and roasts are produced by AI for entertainment only. They can be wrong, blunt, or offensive, and they are not advice or fact. Please keep the game friendly.</p>
+
+  <h2>10. Security</h2>
+  <p>We send game text over HTTPS and keep what we handle to a minimum. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>We may update this policy. The effective date at the top shows the latest version, and we will post the new version at this address.</p>
+
+  <h2>12. Contact</h2>
+  <p>Noxhel Studios · <a href="mailto:support@roastbox.io">support@roastbox.io</a></p>
+</article>
+
+<!-- ============================== TÜRKÇE ============================== -->
+<article id="tr" lang="tr">
+  <h1>Gizlilik Politikası</h1>
+  <p class="meta">Noxhel Studios tarafından geliştirilen RoastBox · Yürürlük tarihi: 24 Ekim 2026</p>
+
+  <div class="summary">
+    <strong>Kısaca</strong>
+    <ul>
+      <li>Hesap, e-posta, telefon numarası ya da şifre yok. Doğrudan oynarsın.</li>
+      <li>Tahminleri puanlamak ve roast yazmak için, bir turda yazdığın metin HTTPS ile sunucumuza gider ve oradan üçüncü taraf bir yapay zekâ modeline iletilir.</li>
+      <li>Android uygulaması Google AdMob ile reklam gösterir. AdMob reklam kimliğini kullanabilir. Yasanın gerektirdiği yerlerde önce onayını isteriz.</li>
+      <li>Ayarların ve mevcut oyun cihazında kalır.</li>
+      <li>Kişisel bilgilerini satmıyoruz.</li>
+    </ul>
+  </div>
+
+  <h2>1. Biz kimiz</h2>
+  <p>RoastBox (paket adı <code>io.roastbox.app</code>, “Uygulama”), Noxhel Studios (“biz”) tarafından yayımlanan, telefonu elden ele geçirerek oynanan bir parti oyunudur. Gizlilikle ilgili soru ve talepler için <a href="mailto:support@roastbox.io">support@roastbox.io</a> adresine yazabilirsin.</p>
+
+  <h2>2. İşlediğimiz bilgiler</h2>
+  <p><strong>Yazdığın oyun içeriği.</strong> Oyuncu takma adları, sorular, gizli “gerçekler” ve tahminler. Tur sürerken bu içerik cihazında durur. Tur puanlama aşamasına gelince bu metin, şifreli HTTPS bağlantısıyla Cloudflare Workers üzerinde çalışan aracı sunucumuza gönderilir. Aracı sunucu bunu, yapay zekânın her tahmini puanlayıp roast yazabilmesi için üçüncü taraf bir yapay zekâ model sağlayıcısına (şu anda Google Gemini API) iletir. Senden gerçek ad ya da kişisel bilgi istemiyoruz. Hassas bilgi (sağlık verisi, kimlik numarası, şifre, başkalarının paylaşılmasını istemeyeceği bilgiler gibi) yazma. Yapay zekâ servisine ulaşılamazsa Uygulama turu cihazındaki çevrimdışı yedek yöntemle puanlar.</p>
+  <p>Bu metinden kullanıcı profili oluşturmuyoruz, bir hesaba bağlamıyoruz (hesap yok) ve reklam için kullanmıyoruz. Aracı sunucumuz bunu kendi veritabanımızda saklamaz. Her web hizmetinde olduğu gibi Cloudflare ve yapay zekâ sağlayıcısı teknik istek verilerini (ör. IP adresi) alır ve kendi koşullarına göre kısa süreli kayıt tutabilir.</p>
+  <p><strong>Cihazında saklanan veriler.</strong> Uygulama dilini, ses ve titreşim ayarlarını, seçili soru paketlerini, ödüllü reklamla açılan bir paketin ne zaman kapanacağını, eğitimi görüp görmediğini ve mevcut oyunun durumunu (oyuncular, puanlar, tur) kaydeder. Bunlar cihazında kalır, bize gönderilmez. <em>Ayarlar → Mevcut oyunu sıfırla</em> ile, Android ayarlarından Uygulama verilerini temizleyerek ya da Uygulamayı kaldırarak silebilirsin.</p>
+  <p><strong>Reklam verileri (Android).</strong> Uygulama, Google AdMob ile ödüllü ve geçiş (interstitial) reklamları gösterir. Reklamları sunmak, ölçmek ve sahtekârlığı önlemek için Google; Android reklam kimliğini, IP adresini (yaklaşık konum çıkarılabilir), cihaz ve uygulama bilgilerini ve reklamlarla etkileşimini toplayabilir. Reklam içeriğini “Teen” (genç) düzeyiyle sınırlıyoruz. Yasanın onay gerektirdiği yerlerde (örneğin AEA, Birleşik Krallık ve İsviçre) reklamlar yüklenmeden önce Uygulama bir onay formu gösterir ve seçimini sonradan <em>Ayarlar → Reklam gizlilik tercihleri</em> bölümünden değiştirebilirsin. Reklam kimliğini Android ayarlarından da sıfırlayabilir veya silebilirsin (<em>Ayarlar → Gizlilik → Reklamlar</em>). Google’ın uygulamaları için: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> ve <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+  <p><strong>Puanlama isteği.</strong> Uygulama senden puan istediğinde Google Play’in uygulama içi değerlendirme penceresini kullanır. Yorumunu Google yönetir. Google Play’in geliştiricilere gösterdiğinin ötesinde bir şey almayız.</p>
+  <p><strong>Bize gönderdiğin mesajlar.</strong> Bize e-posta gönderirsen e-posta adresini ve yazdıklarını alırız. Bunları yalnızca yanıtlamak için kullanırız.</p>
+  <p><strong>Toplamadıklarımız.</strong> Hesap, e-posta adresi, telefon numarası, ödeme bilgisi, rehber, fotoğraf, mikrofon veya kamera verisi ve hassas konum toplamıyoruz. Uygulama yalnızca internet ve ağ durumu izinlerini, bir de AdMob’un kullandığı reklam kimliği iznini ister.</p>
+
+  <h2>3. Neden kullanıyoruz, hukuki dayanaklar</h2>
+  <table>
+    <tr><th>Amaç</th><th>Veri</th><th>Dayanak (GDPR / UK GDPR / KVKK)</th></tr>
+    <tr><td>Tahminleri puanlamak ve roast yazmak</td><td>Yazdığın oyun içeriği</td><td>İstediğin hizmetin sunulması; oyunu işletmedeki meşru menfaatimiz</td></tr>
+    <tr><td>Reklam göstermek ve ölçmek</td><td>Reklam kimliği, IP adresi, cihaz ve reklam etkileşim verileri (Google tarafından işlenir)</td><td>Gerekli yerlerde açık rızan; aksi halde Uygulamayı finanse etmedeki meşru menfaat</td></tr>
+    <tr><td>Oyunun çalışmasını ve güvenliğini sağlamak</td><td>Teknik istek verileri</td><td>Meşru menfaat</td></tr>
+    <tr><td>Mesajlarına yanıt vermek</td><td>E-postan ve mesajın</td><td>Meşru menfaat; varsa yasal yükümlülükler</td></tr>
+  </table>
+
+  <h2>4. Verileri kimler alır</h2>
+  <ul>
+    <li><strong>Cloudflare</strong>, yapay zekâ isteklerini işleyen aracı sunucuyu barındırır.</li>
+    <li><strong>Bir yapay zekâ model sağlayıcısı</strong> (şu anda Google Gemini), puan ve roast üretmek için oyun metnini işler. Sağlayıcı bunu kendi koşulları ve gizlilik politikası kapsamında yönetir.</li>
+    <li><strong>Google AdMob</strong> reklamları sunar ve yukarıda anlatılan reklam verilerini alır.</li>
+    <li><strong>Google Play</strong> Uygulamayı dağıtır ve değerlendirme penceresini çalıştırır.</li>
+    <li>Yasa gerektirdiğinde ya da hakları ve güvenliği korumak için bilgi paylaşabiliriz.</li>
+  </ul>
+  <p>Kişisel bilgilerini satmıyoruz. ABD’nin bazı eyaletlerinde Google’a giden reklam verileri reklam amaçlı “paylaşım” sayılabilir. Bunu <em>Ayarlar → Reklam gizlilik tercihleri</em> ve Android reklam ayarlarıyla sınırlayabilirsin.</p>
+
+  <h2>5. Yurt dışına aktarım</h2>
+  <p>Cloudflare, Google ve yapay zekâ sağlayıcısı dünya çapında çalıştığı için verilerin ülken dışında, ABD dahil, işlenebilir. Gerekli yerlerde bu sağlayıcılar standart sözleşme maddeleri veya eşdeğer güvenceler kullanır.</p>
+
+  <h2>6. Ne kadar saklıyoruz</h2>
+  <ul>
+    <li>Cihazındaki veri, sen silene, oyunu sıfırlayana veya Uygulamayı kaldırana kadar durur.</li>
+    <li>Oyun metnini kendi veritabanımızda saklamıyoruz. Cloudflare ve yapay zekâ sağlayıcısı, kendi politikalarına göre istek kayıtlarını kısa süre tutabilir.</li>
+    <li>Reklam verilerini Google, kendi politikalarına göre saklar.</li>
+    <li>Bize gelen e-postalar, yanıtlamak ve yasal yükümlülükler için gerektiği kadar saklanır.</li>
+  </ul>
+
+  <h2>7. Haklarınız ve tercihleriniz</h2>
+  <p>Yaşadığın yere göre verilerine erişme, düzeltme, silme, işlenmesini kısıtlama veya itiraz etme, rızanı her zaman geri çekme ve veri koruma otoritene şikâyette bulunma hakların olabilir. Türkiye’de KVKK madde 11 benzer haklar tanır; verilerinin işlenip işlenmediğini öğrenme ve silinmesini isteme de bunlara dahildir, ayrıca Kişisel Verileri Koruma Kurumu’na şikâyette bulunabilirsin. Kaliforniya sakinleri bilme, silme ve satış veya paylaşımı reddetme hakkına sahiptir; bu hakları kullandığın için ayrımcılık yapmayız.</p>
+  <p>Uygulamada hesap olmadığı için verinin sana ait olup olmadığını genellikle belirleyemeyiz ve verilerin büyük kısmı zaten senin kontrolündeki cihazında durur. Talep için <a href="mailto:support@roastbox.io">support@roastbox.io</a> adresine e-posta gönder. Yasanın belirlediği sürede yanıtlarız. Reklam tercihleri: Uygulamada <em>Ayarlar → Reklam gizlilik tercihleri</em> ve Android reklam kimliği ayarları.</p>
+
+  <h2>8. Çocuklar</h2>
+  <p>RoastBox 13 yaşın altındaki çocuklara yönelik değildir ve onlardan bilerek kişisel bilgi toplamayız. Bazı ülkelerde asgari yaş daha yüksektir; yaşadığın yerde yasa ebeveyn izni gerektiriyorsa önce ebeveynine sor. Bir çocuğun bize kişisel bilgi gönderdiğini düşünüyorsan <a href="mailto:support@roastbox.io">support@roastbox.io</a> adresine yaz, gereğini yaparız.</p>
+
+  <h2>9. Yapay zekâ ile üretilen içerik</h2>
+  <p>Puanlar ve roast’lar yalnızca eğlence amacıyla yapay zekâ tarafından üretilir. Yanlış, sert veya rahatsız edici olabilir; tavsiye ya da gerçek değildir. Lütfen oyunu dostça tut.</p>
+
+  <h2>10. Güvenlik</h2>
+  <p>Oyun metnini HTTPS ile gönderiyor ve işlediklerimizi en aza indiriyoruz. Hiçbir iletim veya saklama yöntemi tamamen güvenli değildir, bu nedenle mutlak güvenlik garanti edemeyiz.</p>
+
+  <h2>11. Bu politikadaki değişiklikler</h2>
+  <p>Bu politikayı güncelleyebiliriz. En üstteki yürürlük tarihi son sürümü gösterir ve yeni sürümü bu adreste yayımlarız.</p>
+
+  <h2>12. İletişim</h2>
+  <p>Noxhel Studios · <a href="mailto:support@roastbox.io">support@roastbox.io</a></p>
+</article>
+
+<footer>© 2026 Noxhel Studios</footer>
+</main>
+
+<script>
+(function () {
+  var en = document.getElementById("en"), tr = document.getElementById("tr");
+  var buttons = document.querySelectorAll(".langs button");
+  function show(lang) {
+    en.hidden = lang !== "en";
+    tr.hidden = lang !== "tr";
+    document.documentElement.lang = lang;
+    buttons.forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.lang === lang)); });
+    try { history.replaceState(null, "", lang === "tr" ? "#tr" : "#en"); } catch (e) {}
+  }
+  buttons.forEach(function (b) { b.addEventListener("click", function () { show(b.dataset.lang); }); });
+  var pref = (navigator.language || "en").toLowerCase().indexOf("tr") === 0 ? "tr" : "en";
+  function fromHash() {
+    var hash = location.hash.replace("#", "");
+    show(hash === "tr" || hash === "en" ? hash : pref);
+  }
+  window.addEventListener("hashchange", fromHash);
+  fromHash();
+})();
+</script>
+</body>
+</html>
